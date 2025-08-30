@@ -21,6 +21,6 @@ A simple *Stone, Paper, Scissors* game built using *HTML, CSS, and JavaScript*.
 ## How to Run
 1. Clone this repo:  
    ```bash
-   git clone https://github.com/<your-username>/stone-paper-scissors
+   git clone https://github.com/faheemaarif3898/stone-paper-scissors
 
 2. Open index.html in your browser
