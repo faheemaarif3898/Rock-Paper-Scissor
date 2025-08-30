@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, and Scissor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #081b31;
+            color: #fff;
+            height: 5rem;
+            line-height: 5rem;
+            text-align: center;
+        }
+
+        .choices {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+        }
+
+        .choice {
+            margin-top: 5rem;
+            height: 100px;
+            width: 100px;
+        }
+
+        img:hover {
+            border: 4px solid black;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+            border-radius: 100%;
+            cursor: pointer;
+        }
+
+        .score-board {
+            margin-top: 3rem;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
+            text-align: center;
+        }
+
+        #user-score {
+            width: 127.99px;
+        }
+
+        #user-score,
+        #comp-score {
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        .msg-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
+        }
+
+        #msg {
+            background-color: black;
+            color: white;
+            font-size: 2rem;
+            display: inline;
+            padding: 1rem;
+            border-radius: 20px;
+            width: 40vw;
+            text-align: center;
+        }
+
+        #reset-btn {
+            background-color: black;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        #reset-btn:hover {
+            background-color: rgb(89, 3, 3);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <div class="choices">
+        <div id="rock" class="choice">
+            <img src="images/rock.png" alt="">
+        </div>
+        <div id="paper" class="choice">
+            <img src="images/paper.png" alt="">
+        </div>
+        <div id="scissor" class="choice">
+            <img src="images/scissors.png" alt="">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div id="reset-btn">Reset Scores</div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
