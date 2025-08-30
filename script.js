@@ -9,7 +9,7 @@ let comp_score = 0;
 
 let comp_choice;
 
-let total_choices = ["rock", "paper", "scissor"];
+let total_choices = ["rock", "paper", "scissor"]; 
 
 let user_win = true;
 
