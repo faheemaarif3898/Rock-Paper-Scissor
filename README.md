@@ -4,7 +4,7 @@ A simple *Stone, Paper, Scissors* game built using *HTML, CSS, and JavaScript*.
 
 ## Demo
 - Live site: [Rock Paper Scissor game Demo](https://faheemaarif3898.github.io/Rock-Paper-Scissor/)
-- Open index.html in your browser to play the game.
+- Or open index.html in your browser to play the game.
 
 ## Features
 - Player vs Computer gameplay  
